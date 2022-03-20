@@ -1,0 +1,252 @@
+#logback.classic pattern: [%d] %-5level [%10thread] [%10logger{0}] - %msg%n
+[2022-03-09 13:41:41,380] INFO  [      main] [ImplManager] - Binding Implementation[net.inspiredbroadcast.legion.ikernel.core.ShutdownManager] for Type[net.inspiredbroadcast.legion.ikernel.core.IShutdownManager]
+[2022-03-09 13:41:43,987] INFO  [WrapperListener_start_runner] [BootstrapDelegate] - java.library.path=../lib/patch;../lib/level3;../lib/level2;../lib/level1;../lib;.
+[2022-03-09 13:41:43,987] INFO  [WrapperListener_start_runner] [BootstrapDelegate] - Waiting for WrapperManager to call startup routine in Bootstrap...
+[2022-03-09 13:41:43,998] INFO  [ Bootstrap] [  Watchdog] - Beginning watchdog monitoring - period PT10S, system snapshot interval PT120S and process snapshot interval PT120S
+[2022-03-09 13:41:44,001] INFO  [ Bootstrap] [MessageHubImpl] - Starting up net.inspiredbroadcast.legion.ikernel.mdelivery.MessageHubImpl...
+[2022-03-09 13:41:44,003] INFO  [Asyncmessage sending thread] [MessageHubImpl] - AsyncMessageSender thread starting
+[2022-03-09 13:41:44,003] INFO  [ Bootstrap] [AbstractRuntimeState$TiltProcessor] - Creating TiltProcessor, check frequency is 10000
+[2022-03-09 13:41:44,004] INFO  [ Bootstrap] [ StateImpl] - Changing state from 'Stopped.0:NONE' to 'Starting.0:NONE' because 'iKernel is starting up.Terminal had a abnormal shutdown last time'
+[2022-03-09 13:41:44,098] INFO  [ Bootstrap] [Win32NativeSubsystem] - Initialising Win32 native subsystem...
+[2022-03-09 13:41:44,100] INFO  [ Bootstrap] [Win32Native] - Loading Win32Native JNI library 'common-win32-native-1.0.20'
+[2022-03-09 13:41:44,100] INFO  [ Bootstrap] [Win32Native] - Loading library: common-win32-native-1.0.20
+[2022-03-09 13:41:44,126] INFO  [ Bootstrap] [Win32NativeSubsystem] - Obtaining network adapters...
+[2022-03-09 13:41:44,131] INFO  [ Bootstrap] [Win32NativeSubsystem] - Found 1 network adapter
+[2022-03-09 13:41:44,133] INFO  [ Bootstrap] [PeripheralSubsystemManagerImpl] - Reference count of Win32NativeSubsystem has reached zero - shutting down subsystem
+[2022-03-09 13:41:44,189] INFO  [ Bootstrap] [MarimbaUpdater] - Using Marimba runChannel path: C:/marimba/tuner/runchannel.exe
+[2022-03-09 13:41:44,189] INFO  [ Bootstrap] [MarimbaUpdater] - Using Marimba Core channel URL: http://lc01.llg-showtime.com:5300/Production/Legion/ikernel_core_config/
+[2022-03-09 13:41:44,190] INFO  [ Bootstrap] [DefaultCommissioningManager] - Using Updater: net.inspiredbroadcast.legion.ikernel.core.commissioning.MarimbaUpdater@1c3d56c
+[2022-03-09 13:41:44,190] INFO  [ Bootstrap] [CommissioningPresets$Defaults] - There are no channels configured to be auto-updated during commissioning
+[2022-03-09 13:41:44,193] INFO  [ Bootstrap] [MacAddressBasedDisconnectedEgmId] - Egm Id Mac address based with prefix=INS_ and delimiter=Egm Id Mac address based with prefix=INS_ and delimiter=
+[2022-03-09 13:41:44,193] INFO  [ Bootstrap] [CoreConfigImpl] - Using Implementation[net.inspiredbroadcast.legion.ikernel.core.commissioning.SerialNumberBasedDisconnectedEgmId@3ecdce] of CoreConfig Interface[net.inspiredbroadcast.legion.ikernel.core.commissioning.EgmId]...
+[2022-03-09 13:41:44,193] INFO  [ Bootstrap] [CoreConfigImpl] - Using Implementation[com.ingg.platform.g2s.comm.G2SDisconnectedCommissioningManager@7bd114] of CoreConfig Interface[net.inspiredbroadcast.legion.ikernel.core.commissioning.CommissioningManager]...
+[2022-03-09 13:41:44,193] INFO  [ Bootstrap] [ImplManager] - Binding Implementation[com.ingg.platform.g2s.comm.G2SDisconnectedCommissioningManager] for Type[net.inspiredbroadcast.legion.ikernel.core.commissioning.CommissioningManager]
+[2022-03-09 13:41:44,197] INFO  [ Bootstrap] [ImplManager] - Binding Implementation[net.inspiredbroadcast.legion.ikernel.content.ContentCache] for Type[net.inspiredbroadcast.legion.ikernel.content.ContentCache]
+[2022-03-09 13:41:44,197] INFO  [ Bootstrap] [ImplManager] - Binding Implementation[net.inspiredbroadcast.legion.ikernel.widget.WidgetCache] for Type[net.inspiredbroadcast.legion.ikernel.widget.WidgetCache]
+[2022-03-09 13:41:44,316] INFO  [ Bootstrap] [GameMetadata] - Inferred Modes: [Default, IGG_GoldCash_1] from 2 CoreUI JSON metadata file(s) packaged with Game: 100001
+[2022-03-09 13:41:44,317] INFO  [ Bootstrap] [AbstractContentLoader] - Loading dynamically downloaded content from 100002...
+[2022-03-09 13:41:44,322] INFO  [ Bootstrap] [GameMetadata] - Inferred Modes: [Default, IGG_RiseOfAnubis_25, IGG_RiseOfAnubis_5] from 3 CoreUI JSON metadata file(s) packaged with Game: 100002
+[2022-03-09 13:41:44,322] INFO  [ Bootstrap] [AbstractContentLoader] - Loading dynamically downloaded content from 100003...
+[2022-03-09 13:41:44,325] INFO  [ Bootstrap] [GameMetadata] - Inferred Modes: [Default, IGG_WildMightyTembo_25] from 2 CoreUI JSON metadata file(s) packaged with Game: 100003
+[2022-03-09 13:41:44,325] INFO  [ Bootstrap] [AbstractContentLoader] - Loading dynamically downloaded content from 100004...
+[2022-03-09 13:41:44,328] INFO  [ Bootstrap] [GameMetadata] - Inferred Modes: [Default, IGG_BonusIslandKeno_25] from 2 CoreUI JSON metadata file(s) packaged with Game: 100004
+[2022-03-09 13:41:44,329] INFO  [ Bootstrap] [AbstractContentLoader] - Loading dynamically downloaded content from 100005...
+[2022-03-09 13:41:44,332] INFO  [ Bootstrap] [GameMetadata] - Inferred Modes: [Default, IGG_RespinBonus7s_25] from 2 CoreUI JSON metadata file(s) packaged with Game: 100005
+[2022-03-09 13:41:44,332] INFO  [ Bootstrap] [AbstractContentLoader] - Loading dynamically downloaded content from 100006...
+[2022-03-09 13:41:44,335] INFO  [ Bootstrap] [GameMetadata] - Inferred Modes: [Default, IGG_GoddessOfTheAmazon_1] from 2 CoreUI JSON metadata file(s) packaged with Game: 100006
+[2022-03-09 13:41:44,335] INFO  [ Bootstrap] [AbstractContentLoader] - Loading dynamically downloaded content from 100007...
+[2022-03-09 13:41:44,338] INFO  [ Bootstrap] [GameMetadata] - Inferred Modes: [Default, IGG_Respin5s_5] from 2 CoreUI JSON metadata file(s) packaged with Game: 100007
+[2022-03-09 13:41:44,339] INFO  [ Bootstrap] [AbstractContentLoader] - Loading dynamically downloaded content from 100008...
+[2022-03-09 13:41:44,341] INFO  [ Bootstrap] [GameMetadata] - Inferred Modes: [Default, IGG_Maximus_1] from 2 CoreUI JSON metadata file(s) packaged with Game: 100008
+[2022-03-09 13:41:44,342] INFO  [ Bootstrap] [AbstractContentLoader] - Loading dynamically downloaded content from 12642...
+[2022-03-09 13:41:44,350] INFO  [ Bootstrap] [AbstractContentLoader] - Loading dynamically downloaded content from 12700...
+[2022-03-09 13:41:44,351] INFO  [ Bootstrap] [AbstractContentLoader] - Loading dynamically downloaded content from 12701...
+[2022-03-09 13:41:44,464] INFO  [ Bootstrap] [ScheduleHandlerImpl] - Loaded 2 timeperiods...
+[2022-03-09 13:41:44,465] INFO  [ Bootstrap] [ImplManager] - Binding Implementation[net.inspiredbroadcast.legion.ikernel.schedule.xmlV2.ScheduleHandlerImpl] for Type[net.inspiredbroadcast.legion.ikernel.schedule.ScheduleHandler]
+[2022-03-09 13:41:44,465] INFO  [ Bootstrap] [ScheduleHandlerImpl] - Starting the schedulehandler thread
+[2022-03-09 13:41:44,465] INFO  [ScheduleHandler] [ScheduleHandlerImpl] - Calculating current content
+[2022-03-09 13:41:44,465] INFO  [ScheduleHandler] [ScheduleHandlerImpl] - Sleeping until Thu Mar 10 00:00:00 IST 2022(37096 seconds)
+[2022-03-09 13:41:44,466] INFO  [ Bootstrap] [ServiceHandler] - Instantiating ServiceHandler with Loader[net.inspiredbroadcast.legion.ikernel.service.impl.ServiceLoaderImpl]...
+[2022-03-09 13:41:44,499] INFO  [ Bootstrap] [Monitor1920x1080NoTouch] - TopScreen1 status set to:  Present: true Working: true Testing: false
+[2022-03-09 13:41:44,505] INFO  [ Bootstrap] [EventWorker] - Loaded EventWorker implementation 'net.inspiredbroadcast.legion.ikernel.peripheral.EventWorkerImpl'
+[2022-03-09 13:41:44,506] INFO  [ Bootstrap] [Monitor1920x1080SAW] - MainScreen1 status set to:  Present: true Working: true Testing: false
+[2022-03-09 13:41:44,516] INFO  [ Bootstrap] [AbstractNoteReader] - Note reader will not accept tickets - notes only
+[2022-03-09 13:41:44,516] INFO  [ Bootstrap] [AbstractNoteReader] - Events from the note reader WILL be suppressed when the note reader is being tested
+[2022-03-09 13:41:44,519] INFO  [ Bootstrap] [GenericGDSNoteReader] - supported note readers: 0x2475_0x0105_0x0109_false,0x0BED_0x0103_0x0105_false
+[2022-03-09 13:41:44,580] INFO  [ Bootstrap] [PeripheralMapImpl] - Registered peripheral VolumeControl1 implemented by: class net.inspiredbroadcast.legion.peripheral.win32.MainSystemVolume
+[2022-03-09 13:41:44,580] INFO  [ Bootstrap] [ServiceLoaderImpl] - Instantiating PeripheralTypeServiceMapper
+[2022-03-09 13:41:44,580] INFO  [ Bootstrap] [SimplePropertyLoader] - Loading peripheral_type_service_mapping.properties[jar:file:/D:/ikernel/dist/lib/level3/ikernel-core-config-220680720.jar!/net/inspiredbroadcast/legion/ikernel/service/peripheral_type_service_mapping.properties] with Encoding[ISO-8859-1]...
+[2022-03-09 13:41:46,143] INFO  [ Bootstrap] [ContentSpecificLightSequenceLoader] - loading framelights data from D:\iKernel\content\apps\100008\framelightsdata\Valor for content
+[2022-03-09 13:41:46,143] INFO  [ Bootstrap] [ContentSpecificLightSequenceLoader] - loading sequence data for sequence [GAME_BIG_WIN] from a file D:\iKernel\content\apps\100008\framelightsdata\Valor\GAME_BIG_WIN.seq
+[2022-03-09 13:41:46,158] INFO  [ Bootstrap] [ContentSpecificLightSequenceLoader] - loading sequence data for sequence [GAME_BONUS] from a file D:\iKernel\content\apps\100008\framelightsdata\Valor\GAME_BONUS.seq
+[2022-03-09 13:41:46,158] INFO  [ Bootstrap] [ContentSpecificLightSequenceLoader] - loading sequence data for sequence [GAME_IDLE] from a file D:\iKernel\content\apps\100008\framelightsdata\Valor\GAME_IDLE.seq
+[2022-03-09 13:41:46,158] INFO  [ Bootstrap] [ContentSpecificLightSequenceLoader] - loading sequence data for sequence [GAME_PLAY] from a file D:\iKernel\content\apps\100008\framelightsdata\Valor\GAME_PLAY.seq
+[2022-03-09 13:41:47,097] INFO  [NoteReader1] [GDSNoteReaderProtocolAdapter] - returning instance UsbIdentifier{vendorId=3053, productId=259, dfuVendorId=3053, dfuProductId=261, singleInterface=false}
+[2022-03-09 13:41:47,100] INFO  [NoteReader1] [ContentBasedFirmwareDescriptorFinder] - Found firmware for peripheral [dfu_mei_scn8348] content [id=13114, name=MEI Note Acceptor Firmware, revision=1, weight=13114]
+[2022-03-09 13:41:47,100] INFO  [NoteReader1] [ContentBasedFirmwareDescriptorFinder] - Using firmware descriptor [Firmware - 13114/r1/DYN - MEI Note Acceptor Firmware]=D:\iKernel\content\apps\13114\runtime\firmware.xml for peripheral dfu_mei_scn8348
+[2022-03-09 13:41:47,105] INFO  [NoteReader1] [ContentBasedFirmwareDescriptorFinder] - Found firmware for peripheral [dfu_mei_scn8348] content [id=13114, name=MEI Note Acceptor Firmware, revision=1, weight=13114]
+[2022-03-09 13:41:47,105] INFO  [NoteReader1] [ContentBasedFirmwareDescriptorFinder] - Using firmware descriptor [Firmware - 13114/r1/DYN - MEI Note Acceptor Firmware]=D:\iKernel\content\apps\13114\runtime\firmware.xml for peripheral dfu_mei_scn8348
+[2022-03-09 13:41:47,107] INFO  [NoteReader1] [HidApiUSBHidTransceiver] - Connecting to device 3053 - 259
+[2022-03-09 13:41:47,572] INFO  [GDSEventRetrievalWorker] [EventRetrievalJob] - Propagating event from gds device: GDSConnectEvent []
+[2022-03-09 13:41:47,579] INFO  [GDSEventPropagationWorker] [AbstractReceiptAndTicketDispenser] - GenericGDSPrinter status changed to PRINTER_DISCONNECTED. fault cleared=true
+[2022-03-09 13:41:47,579] INFO  [GDSEventPropagationWorker] [AbstractReceiptAndTicketDispenser] - Printer detected PRINTER_DISCONNECTED. Fault cleared? true
+[2022-03-09 13:41:49,541] INFO  [ Bootstrap] [DefaultIntrusionDetection] - Intrusion events < [] >
+[2022-03-09 13:41:49,817] INFO  [EventWorker] [RGLimitServiceImpl] - RGLimitServiceImpl received a PeripheralStatusChangeEvent for peripheral NoteReader1
+[2022-03-09 13:41:50,761] INFO  [AsyncBootstrap] [ComTradeG2SConfiguration] - Activating profile(s): [comTrade, SasDualChannel]
+[2022-03-09 13:41:56,108] INFO  [GDSCommandExecutionWorker] [HidApiUSBHidTransceiver] - Command Sent to 5877-2051 with data: 0xC0 0x01 0x3D 0x3C 0x44 0x50 0x52 0x20 0x69 0x64 0x3D 0x22 0x32 0x30 0x37 0x22 0x20 0x78 0x3D 0x22 0x30 0x30 0x30 0x30 0x30 0x22 0x20 0x79 0x3D 0x22 0x30 0x30 0x32 0x36 0x30 0x22 0x20 0x64 0x78 0x3D 0x22 0x30 0x30 0x35 0x30 0x30 0x22 0x20 0x64 0x79 0x3D 0x22 0x30 0x30 0x30 0x33 0x37 0x22 0x20 0x72 0x6F 0x74 0x3D 0x22
+[2022-03-09 13:41:56,125] INFO  [AsyncBootstrap] [EventHandlerPublisher] - Registering new event handler G2SEventHandler{}
+[2022-03-09 13:41:56,125] INFO  [AsyncBootstrap] [EventHandlerPublisher] - Registering new event handler G2SEventHandler{}
+[2022-03-09 13:41:56,134] INFO  [GDSEventRetrievalWorker] [HidApiUSBHidTransceiver] - Event Received from 5877-2051 with data: 0xC6 0x04 0x01 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+[2022-03-09 13:41:56,149] INFO  [AsyncBootstrap] [AbstractEnumFSMState] - com.ingg.platform.g2s.player.impl.PlayerContextImp :  changed state from UNINITIALIZED to UNINITIALIZED
+[2022-03-09 13:41:56,149] INFO  [AsyncBootstrap] [PlayerStateGuardServiceSupport] - Executing UNINITIALIZED process in separate thread
+[2022-03-09 13:44:27,827] INFO  [AsyncBootstrap] [ StateImpl] - Reporting StateChange[Starting/0:NONE->Live/0:NONE] to listener com.ingg.platform.g2s.cabinet.NAG2sLiveStateChangeListener
+[2022-03-09 13:44:27,827] INFO  [AsyncBootstrap] [AbstractG2sLiveStateChangeListener] - Sending iKernel live message as new state is valid
+[2022-03-09 13:44:27,827] INFO  [AsyncBootstrap] [AbstractRuntimeState$TiltProcessor] - Adding Tilt[NAG2sLiveStateChangeListener:0:NONE::]
+[2022-03-09 13:44:27,827] INFO  [AsyncBootstrap] [  Announce] - Recalculating announcements...
+[2022-03-09 13:44:27,842] INFO  [TiltProcessor] [ StateImpl] - Reporting StateChange[Live/0:NONE->Suspended/0:NONE] to listener com.ingg.platform.g2s.cabinet.NAG2sLiveStateChangeListener
+[2022-03-09 13:45:00,151] INFO  [g2sOptionConfigChannelExecutor-1] [DefaultOptionConfigProcessor] - REQ_IN: GetConfigItemDefaultAndChangeOptions{configOption=CashOutOnDisable, deviceId=1, canModLocal=true, canModRemote=true, defaultValue=G2S_egmControlled}
+[2022-03-09 13:45:00,749] INFO  [g2sRequestIdReaderChannelExecutor-1] [PlayerStateGuardServiceSupport] - Current state: UNINITIALIZED
+[2022-03-09 13:45:00,749] INFO  [g2sRequestIdReaderChannelExecutor-1] [PlayerStateGuardServiceSupport] - Current state: UNINITIALIZED
+[2022-03-09 13:45:01,063] INFO  [g2sRequestCabinetChannelExecutor-1] [CabinetManager] - Processing skipped, since device already reflects the latest state.
+[2022-03-09 13:45:01,086] INFO  [ Announcer] [AnnouncementList] - DefaultNotificationAnnouncement[] is defunct, and is being removed
+[2022-03-09 13:45:01,089] INFO  [pool-27-thread-4] [G2SEventHandler] - Sending Event Message: EventMessage [eventType=AC_POWER_ON_EVENT, eventProperties={DEVICEID=1, TYPE=AC_POWER_ON_EVENT}]
+[2022-03-09 13:45:01,107] INFO  [AsyncBootstrap] [IOCGIDLightTowerServiceImpl] - LightTowerServiceImpl is capturing state change message, CurrentRuntimeState is [The unit is suspended] and PreviousRuntimeState is [The unit is starting up]
+[2022-03-09 13:45:01,107] INFO  [AsyncBootstrap] [IOCGIDLightTowerServiceImpl] - Previous and current state is not same, hence processing state change
+[2022-03-09 13:45:01,110] INFO  [TiltProcessor] [EventHubImpl] - Event added: PrinterCommunicationErrorEvent/[PrinterCommunicationErrorEvent, {isFaultCleared=true, errorType=PRINTER_COMMUNICATION_FAILURE_EVENT}][Peripheral=Printer1]
+[2022-03-09 13:45:01,110] INFO  [TiltProcessor] [EngineIkernelEventListener] - Received event: [PrinterCommunicationErrorEvent, {isFaultCleared=true, errorType=PRINTER_COMMUNICATION_FAILURE_EVENT}]
+[2022-03-09 13:45:01,110] WARN  [TiltProcessor] [EngineIkernelEventListener] - Warn(s)[A 'Generic Ticket Dispenser Error Event' occurred] - PrinterCommunicationErrorEvent
+[2022-03-09 13:45:01,110] INFO  [g2sRequestGenericChannelExecutor-2] [GenericProcessor] - REQ_IN: EgmState{uuid=dbf31389-145a-4f4f-bcb9-cf98ed83a1a0, g2sClass=G2S_cabinet, deviceId=1, cause=EgmPlatform, disable=false, disableText=, lock2Disable=false}
+[2022-03-09 13:45:01,110] INFO  [g2sRequestGenericChannelExecutor-2] [GenericProcessor] - Processing the EgmState isDisable=false
+[2022-03-09 13:45:01,110] INFO  [g2sRequestGenericChannelExecutor-2] [GenericProcessor] - EgmState is trying to un-suspend terminal.
+[2022-03-09 13:45:01,110] INFO  [g2sRequestGenericChannelExecutor-2] [G2sClassSuspender] - We are going to restore the suspension that was caused by: G2S_cabinet[1]: EGM has been disabled by this device
+[2022-03-09 13:45:01,110] INFO  [g2sRequestGenericChannelExecutor-2] [GenericProcessor] - CabinetState un-suspended terminal.
+[2022-03-09 13:45:01,179] ERROR [TiltProcessor] [UndertowDialogServer] - Error attempting showing dialog:
+[2022-03-09 13:45:01,207] WARN  [AsyncBootstrap] [MessageHubImpl] - EngineIkernelMessageListener took 99 milliseconds to process StateChangeMessage
+[2022-03-09 13:45:01,207] INFO  [AsyncBootstrap] [MessageHubImpl] - Notified 26 MessageListener(s) of StateChangeMessage in 100 milliseconds
+[2022-03-09 13:45:01,207] WARN  [AsyncBootstrap] [ StateImpl] - Breaking out of Notification[Starting/0:NONE->Suspended/0:NONE] loop as State[Live->Suspended] has been changed by a listener
+[2022-03-09 13:45:01,207] WARN  [AsyncBootstrap] [ StateImpl] - Breaking out of Notification[Starting/0:NONE->Suspended/0:NONE] loop as State[Live->Suspended] has been changed by a listener
+[2022-03-09 13:45:01,208] WARN  [AsyncBootstrap] [ServiceHandler] - Service not available: TouchScreenCalibration
+[2022-03-09 13:45:01,233] INFO  [g2sRequestGamePlayChannelExecutor-1] [UIGameService] - Enable game 100001
+[2022-03-09 13:45:01,233] INFO  [g2sRequestGamePlayChannelExecutor-1] [UIGameService] - Reloading current UI content at 293089915723(ms). Current time: 291089916483(ms)
+[2022-03-09 13:45:01,233] INFO  [g2sRequestGamePlayChannelExecutor-1] [  GamePlay] - IGG_NA_MightyTembo-IGG_WildMightyTembo_25 state is ENABLE and egmState is ENABLE
+[2022-03-09 13:45:01,233] INFO  [g2sRequestGamePlayChannelExecutor-1] [DefaultGamePlayService] - State of GamePlay IGG_NA_MightyTembo-IGG_WildMightyTembo_25: enabledCombos - [25], playable - true, enabled - true
+[2022-03-09 13:45:01,331] INFO  [g2sRequestGamePlayChannelExecutor-1] [UIGameService] - Enable game 100004
+[2022-03-09 13:45:01,332] INFO  [g2sRequestGamePlayChannelExecutor-1] [DefaultGamePlayService] - Can game with 100006 be enabled ? true
+[2022-03-09 13:45:01,332] INFO  [g2sRequestGamePlayChannelExecutor-1] [ActiveGameTracker] - Activated game ids [60088, 100003, 100001, 100007, 100005, 100002, 100006, 100004, 100008]
+[2022-03-09 13:45:01,332] INFO  [g2sRequestGamePlayChannelExecutor-1] [DefaultGamePlayProcessor] - RESP_OUT: null
+[2022-03-09 13:45:01,332] INFO  [g2sRequestGamePlayChannelExecutor-1] [DefaultGamePlayProcessor] - REQ_IN: SetGamePlayState{className=G2S_gamePlay, deviceId=5, disabled=false, disableText=, egmEnabled=true, hostEnabled=true, isHostRequest=false, isEgmRequest=false}
+[2022-03-09 13:45:01,369] INFO  [g2sRequestGamePlayChannelExecutor-1] [DefaultGamePlayService] - Added active paytable IGG_RiseOfAnubis_5 for game IGG_NA_Anubis-IGG_RiseOfAnubis_5 to [IGG_RiseOfAnubis_25, IGG_RiseOfAnubis_5]
+[2022-03-09 13:45:01,369] INFO  [g2sRequestGamePlayChannelExecutor-1] [DefaultGamePlayService] - Setting active denomination for game 100002 to [5]
+[2022-03-09 13:45:01,369] INFO  [pool-34-thread-1] [LoggingInputChannelInterceptor] - Message of type [class com.ingg.platform.g2s.adaptor2core.common.GetMeterValueAck] received from engine. (GetMeterValueAck{uuid=c017af0a-84a9-4c6a-95f1-7be4c0fe0abe, values=[0, 0, 14, 0, 0, 0, 0, null, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1000000, 1, 0, 0, 100000, 0, 0, 0, 0, 0, 1, 0, 100000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]})
+[2022-03-09 13:45:01,370] INFO  [g2sRequestGenericChannelExecutor-1] [MeterFactory] - No Meter named G2S_lostCnt exists - creating new Meter
+[2022-03-09 13:45:01,371] INFO  [g2sRequestGenericChannelExecutor-1] [BasicMeter] - Reinitialising Meter[G2S_lostCnt] as it could not be loaded from the Meter Registry
+[2022-03-09 13:45:01,741] INFO  [TiltProcessor] [PayoutAsyncService] - Signal payout
+[2022-03-09 13:45:01,763] INFO  [TiltProcessor] [NetConnImpl] - Disabling periodic comms test
+[2022-03-09 13:45:01,763] INFO  [NetConn Monitor] [NetConnImpl] - Interrupted - hopefully on state change
+[2022-03-09 13:45:01,764] INFO  [TiltProcessor] [Notification] - NOTIFIED - CoreUI Daemon-12642/1:2772 has been notified of xmpp_payload_v1 Event #87: "stateChange(...)" (in 0.000 seconds)
+[2022-03-09 13:45:01,764] INFO  [TiltProcessor] [ StateImpl] - Reporting StateChange[Live/0:NONE->Suspended/0:NONE] to listener com.ingg.ikernel.session.gamecycle.GameCycleCleanupHousekeeper
+[2022-03-09 13:45:01,764] INFO  [TiltProcessor] [ StateImpl] - Reporting StateChange[Live/0:NONE->Suspended/0:NONE] to listener com.ingg.platform.g2s.cabinet.PoliteGameAutoCompleteManager
+[2022-03-09 13:45:01,773] INFO  [g2sRequestGamePlayChannelExecutor-1] [  GamePlay] - IGG_NA_GoldCash-IGG_GoldCash_1 state is ENABLE and egmState is ENABLE
+[2022-03-09 13:45:03,805] INFO  [pool-34-thread-1] [PeriodicMetersListener] - Meters have been reset after power on
+[2022-03-09 13:45:03,805] INFO  [pool-34-thread-1] [PeriodicMetersListener] - Canceling scheduled runs, nothing else in queue
+[2022-03-09 13:45:11,783] INFO  [TiltProcessor] [IOCGIDLightTowerServiceImpl] - LightTowerServiceImpl is capturing state change message, CurrentRuntimeState is [The unit is live] and PreviousRuntimeState is [The unit is suspended]
+[2022-03-09 13:45:11,783] INFO  [TiltProcessor] [IOCGIDLightTowerServiceImpl] - Previous and current state is not same, hence processing state change
+[2022-03-09 13:45:11,789] INFO  [ Announcer] [AnnouncementList] - StateAnnouncement[The unit is suspended: 
+[2022-03-09 13:45:11,809] INFO  [TiltProcessor] [G2sGameBehaviourDetermination] - No gamecycles awaiting recovery on this EGM/Live/0:NONE
+[2022-03-09 13:45:11,809] INFO  [TiltProcessor] [PayoutAsyncService] - Signal payout
+[2022-03-09 13:45:11,809] INFO  [TiltProcessor] [ StateImpl] - Reporting StateChange[Suspended/0:NONE->Live/0:NONE] to listener com.ingg.platform.g2s.cabinet.CabinetStateChangeListener
+[2022-03-09 13:45:29,514] INFO  [ XMPP MQ 4] [G2sGameBehaviourDetermination] - EXIT_REQUESTED: suspended=false, liveButLockedOut=false, invalidContent=false, runningContent.hasExitBeenRequested()=false, runningContent.isBeingCoercedIntoExiting()=false, (runningContent.exitTypes().size() > 0)=false
+[2022-03-09 13:45:29,518] INFO  [ XMPP MQ 4] [G2sGameBehaviourDetermination] - EXIT_REQUESTED: suspended=false, liveButLockedOut=false, invalidContent=false, runningContent.hasExitBeenRequested()=false, runningContent.isBeingCoercedIntoExiting()=false, (runningContent.exitTypes().size() > 0)=false
+[2022-03-09 13:45:30,115] INFO  [ Thread-50] [G2SMysteryAdapter] - G2SMysteryAdapter::DeviceDisabled(deviceId:1, disabled:true, disableText:Loss of host communications, egmEnabled:false, hostEnabled:true, isHostRequest:false, isEgmRequest:false)
+[2022-03-09 13:45:32,152] INFO  [g2sRequestGenericChannelExecutor-2] [GenericProcessor] - REQ_IN: EgmState{uuid=c2e8cc75-056a-4297-9c16-ad2383fca750, g2sClass=G2S_cabinet, deviceId=1, cause=HostRemote, disable=true, disableText=Cabinet Disable by Host, lock2Disable=false}
+[2022-03-09 13:45:32,658] INFO  [GenericProcessor-CloseSession] [EngineIkernelEventListener] - Received event: [mediadisplay.HideMediaDisplay, {ACKNOWLEDGEMENT=true, MEDIA_DISPLAY_ID=10}]
+[2022-03-09 13:45:32,667] INFO  [GenericProcessor-CloseSession] [ExitActivePayload] - secretly scheduling exit() of active primary content
+[2022-03-09 13:45:32,700] INFO  [ XMPP MQ 4] [   Exiting] - Exiting cleanly...
+[2022-03-09 13:45:32,705] INFO  [ XMPP MQ 4] [ProcessHandlerImpl] - Tracking dying NA_Maximus-100008/1:4160
+[2022-03-09 13:45:32,705] INFO  [ XMPP MQ 4] [PlayerServicesEnablementGameLoadingMessageListener] - Detected content 100008 loaded or exiting, enabling player services button.
+[2022-03-09 13:45:32,705] INFO  [ XMPP MQ 4] [EngineIkernelEventListener] - Received event: [content.ContentExitingEvent, {contentId=100008, contentType=payload, contentExecutable=D:\iKernel\content\apps\100008\runtime\game.exe, splashEnabled=false, pid=4160, visibleOnLoaded=false}]
+[2022-03-09 13:45:32,706] INFO  [ XMPP MQ 4] [ UIManager] - Current UI content ([Game - 100008/r19/DYN - NA_Maximus]) not same as default UI content([Menu - 12643/r5/SPD - CoreUI MenuBot])
+[2022-03-09 13:45:33,066] INFO  [  BLT MQ 1] [BLTFlashFriendlyServer] - Closed connection to currently unidentifiable client - there are now 0 connected clients
+[2022-03-09 13:45:33,511] INFO  [ProcessHandler] [RunningContent] - NA_Maximus-100008/1:4160 appears to have been terminated with exit code 0 without prior exit notification
+[2022-03-09 13:45:33,571] INFO  [ XMPP MQ 5] [EngineIkernelMessageListener] - request reloading runningContent [Menubot]
+[2022-03-09 13:45:33,573] INFO  [ XMPP MQ 5] [EventHubImpl] - Event added: content.ContentLoadedEvent/[content.ContentLoadedEvent, {contentId=12643, contentType=menu, contentExecutable=D:\iKernel\dist\defaults\content\apps\12643\runtime\MenuBotSapient.exe, splashEnabled=false, visibleOnLoaded=true, pid=4484}]
+[2022-03-09 13:45:33,573] INFO  [ XMPP MQ 5] [CoreUIListener] - Content Loaded: 12643
+[2022-03-09 13:45:33,575] INFO  [ XMPP MQ 5] [Notification] - NOTIFIED - CoreUI Daemon-12642/1:2772 has been notified of xmpp_payload_v1 Event #127: "iKernelEvent(content.ContentLoadedEvent)" (in 0.000 seconds)
+[2022-03-09 13:45:33,575] INFO  [ XMPP MQ 5] [EngineIkernelEventListener] - Received event: [content.ContentLoadedEvent, {contentId=12643, contentType=menu, contentExecutable=D:\iKernel\dist\defaults\content\apps\12643\runtime\MenuBotSapient.exe, splashEnabled=false, visibleOnLoaded=true, pid=4484}]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,594] INFO  [pool-26-thread-1] [IkernelPlayerStateListener] - Notifying game exit
+[2022-03-09 13:45:33,595] INFO  [pool-26-thread-1] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=gameExit, myPriority=LOW]
+[2022-03-09 13:45:33,595] INFO  [pool-26-thread-1] [GameDelayManager] - Game delay reset.
+[2022-03-09 13:45:33,595] INFO  [ProcessHandler] [GameComboSelectorService] - Message received MESSAGE:
+[2022-03-09 13:45:33,595] INFO  [ProcessHandler] [GameComboSelectorService] - notifying game 100008 close
+[2022-03-09 13:45:33,595] INFO  [ProcessHandler] [LoggingOutputChannelInterceptor] - Sending message of type [class com.ingg.platform.g2s.core2adaptor.gamePlay.dto.GameComboSelectorUpdater] to engine. (GameComboSelectorUpdater [theme=G2S_none, paytable=G2S_none, denomination=0, type=G2S_byPlayer, selectedGameId=0])
+[2022-03-09 13:45:33,596] INFO  [g2sGameComboChannelExecutor-1] [CabinetProcessor] - Processing GameComboSelectorUpdater: GameComboSelectorUpdater [theme=G2S_none, paytable=G2S_none, denomination=0, type=G2S_byPlayer, selectedGameId=0]
+[2022-03-09 13:45:33,596] INFO  [ProcessHandler] [EngineIkernelMessageListener] - Received a 'CONTENT EXIT' message for game[100008,NA_Maximus]
+[2022-03-09 13:45:33,605] INFO  [ XMPP MQ 5] [GameComboSelectorService] - Message received MESSAGE:
+[2022-03-09 13:45:33,606] INFO  [ XMPP MQ 5] [SafeContentExecutor] - Content loaded. Executing all deferred tasks.
+[2022-03-09 13:45:33,618] INFO  [ProcessHandler] [EngineIkernelEventListener] - Received event: [content.ContentExitedEvent, {contentId=100008, contentType=payload, contentExecutable=D:\iKernel\content\apps\100008\runtime\game.exe, splashEnabled=false, CONTENTID=100008, CONTENT_ID=100008}, {TRANSACTION_TOTALS={}, TRANSACTION_COUNT={}}]
+[2022-03-09 13:45:33,619] INFO  [ProcessHandler] [G2sGameBehaviourDetermination] - No gamecycles awaiting recovery on this EGM/Live/0:NONE
+[2022-03-09 13:45:33,631] INFO  [ProcessHandler] [ProcessEventListenerCollection] - Sending ProcessEndEvent for 100008/1:4160 to 13 SimpleProcessLifecycleListener instance(s)
+[2022-03-09 13:45:33,651] INFO  [TerminalSuspendServiceThread] [TerminalSuspendService] - No need to wait for game to end since there is no game running.
+[2022-03-09 13:45:33,651] INFO  [TerminalSuspendServiceThread] [TerminalSuspendService] - Closing all dialogs
+[2022-03-09 13:45:33,656] INFO  [ProcessHandler] [GameCycleTracker] - Terminating GameData tracking for: [Game - 100008/r19/DYN - NA_Maximus]
+[2022-03-09 13:45:33,657] INFO  [ProcessHandler] [ProcessEventListenerCollection] - Sent ProcessEndEvent for 100008/1:4160 to 13 SimpleProcessLifecycleListener instance(s) in 17 ms
+[2022-03-09 13:45:34,155] INFO  [TerminalSuspendServiceThread] [PrioritisedOnDemandExecutor] - Executing task: PlayerSessionTask [myName=deactivateSession, myPriority=MEDIUM]
+[2022-03-09 13:45:34,156] INFO  [pool-35-thread-1] [PlayerStateGuardServiceSupport] - ACTIVE -> DEACTIVATING succeeded!
+[2022-03-09 13:45:34,156] WARN  [pool-35-thread-1] [G2SEnableableServiceImpl] - Unknown enablement state of peripheral CARD_READER, returning false
+[2022-03-09 13:45:34,156] INFO  [pool-35-thread-1] [TerminalStateValidatorImpl] - XX: validateTerminalState - currentState is DEACTIVATING
+[2022-03-09 13:45:34,156] INFO  [pool-35-thread-1] [NAPlayerPrefencesService] - Going to reset player preferences. PlayerSessionState old: ACTIVE new: DEACTIVATING availableCredit: 900
+[2022-03-09 13:45:34,156] INFO  [pool-35-thread-1] [NAPlayerPrefencesService] - Player preferences have been defaulted
+[2022-03-09 13:45:34,159] INFO  [StateMachine_Move-1] [PlayerSessionProcess] - Executing player session state: DEACTIVATING
+[2022-03-09 13:45:34,160] INFO  [StateMachine_Move-1] [G2sGameBehaviourDetermination] - No gamecycles awaiting recovery on this EGM/Live/0:NONE
+[2022-03-09 13:45:34,160] INFO  [StateMachine_Move-1] [PlayerSessionService] - Stop time called with session state of Started
+[2022-03-09 13:45:34,179] INFO  [pool-54-thread-1] [AbstractNoteReader] - disabling Note Reader. bInitialised=true
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [EventWorkerImpl] - Dispatching PeripheralStatusChangeEventCommand to DefaultNoteStateChangeService
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [EventWorkerImpl] - Dispatching PeripheralStatusChangeEventCommand to DialogUIServiceImpl
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [DialogUIServiceImpl] - DialogUIServiceImpl received a PeripheralStatusChangeEvent for peripheral NoteReader1
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [EventWorkerImpl] - Dispatching PeripheralStatusChangeEventCommand to BasicG2sVerificationService
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [EventWorkerImpl] - Dispatching PeripheralStatusChangeEventCommand to RGLimitServiceImpl
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [RGLimitServiceImpl] - RGLimitServiceImpl received a PeripheralStatusChangeEvent for peripheral NoteReader1
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [DefaultG2sIdentifiableAuditor] - Received PeripheralStatucChangeEvent for NoteReader1. Present: true. Working: true. Will attempt to calculate digest...
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [DefaultG2sIdentifiableAuditor] - previousPresentStatus true
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [EventWorkerImpl] - Dispatching PeripheralStatusChangeEventCommand to CacheStartUpEventsService
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [EventWorkerImpl] - Dispatching PeripheralStatusChangeEventCommand to GSACashHandling
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [ErrorReportingService] - NoteReader1) Recorded state true
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [EventWorkerImpl] - Dispatching PeripheralStatusChangeEventCommand to ErrorReportingService
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [EventWorkerImpl] - Dispatching PeripheralStatusChangeEventCommand to G2SEnableableServiceImpl
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [G2SEnableableServiceImpl] - G2SEnableableServiceImpl received a PeripheralStatusChangeEvent for peripheral NoteReader1
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [EventWorkerImpl] - Dispatching PeripheralStatusChangeEventCommand to TestingImpl
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [TestingImpl] - TestingImpl received a PeripheralStatusChangeEvent for peripheral NoteReader1
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [EventWorkerImpl] - Dispatching PeripheralStatusChangeEventCommand to BasicDownloadsService
+[2022-03-09 13:45:34,183] INFO  [EventWorker] [EventWorkerImpl] - Dispatching PeripheralStatusChangeEventCommand to DefaultDeviceStatusChangeListener
+[2022-03-09 13:45:34,186] INFO  [StateMachine_Move-1] [PlayerSessionService] - Stop time have been updated reason DEACTIVATING
+[2022-03-09 13:45:34,186] INFO  [StateMachine_Move-1] [PlayerSessionProcess] - Player session state transition from DEACTIVATING -> PAYOUT
+[2022-03-09 13:45:34,186] INFO  [StateMachine_Move-1] [AbstractEnumFSMState] - com.ingg.platform.g2s.player.impl.PlayerContextImp :  changed state from DEACTIVATING to PAYOUT
+[2022-03-09 13:45:34,186] INFO  [StateMachine_Move-1] [PlayerSessionProcess] - Executing player session state: PAYOUT
+[2022-03-09 13:45:34,187] INFO  [requestEventOutExecutor-1] [LoggingInputChannelInterceptor] - Message of type [class com.ingg.platform.g2s.adaptor2core.eventHandler.dto.EventMessageAck] received from engine. (EventMessageAck{uuid=bc4bf34e-f28d-4cdc-bd59-71080c0a446b, eventId=15, sent=true})
+[2022-03-09 13:45:34,193] INFO  [TerminalSuspendServiceThread] [PlayerStateGuardServiceImpl] - Queueing supplied task until session returns to INITIAL or DOOR_OPEN
+[2022-03-09 13:45:34,198] INFO  [ XMPP MQ 3] [Invocation] - INVOKED - CoreUI Daemon-12642/1:2772 has completed xmpp_payload_v1 API Call #104: "setVolume" (in 0.016 seconds)
+[2022-03-09 13:45:34,200] INFO  [pool-51-thread-1] [PlayerExitPayoutServiceImpl] - Starting cash out
+[2022-03-09 13:45:34,217] INFO  [StateMachine_Move-2] [PlayerStateGuardServiceSupport] - Current state: PAYOUT
+[2022-03-09 13:45:34,218] INFO  [StateMachine_Move-2] [PlayerStateGuardServiceImpl] - Waiting for session to end.
+[2022-03-09 13:45:34,218] INFO  [pool-51-thread-1] [DefaultLock] - Requesting sas lock: TRANSFER_LOCK
+[2022-03-09 13:45:34,219] INFO  [pool-51-thread-1] [AbstractIkernelLockService] - lock state: PENDING
+[2022-03-09 13:45:34,219] INFO  [pool-51-thread-1] [G2sGameBehaviourDetermination] - No gamecycles awaiting recovery on this EGM/Live/0:NONE
+[2022-03-09 13:45:34,220] INFO  [pool-51-thread-1] [PayoutAsyncService] - Starting payout
+[2022-03-09 13:45:34,221] INFO  [DefaultIkernelLockServiceExecutor - 0] [ StateImpl] - Changing state from 'Live.0:NONE' to 'Live.20:LOCKED_OUT' because 'The 'COLLECT' has locked the terminal - You will be unable to launch any games'
+[2022-03-09 13:45:34,223] INFO  [pool-51-thread-1] [G2SDefaultPayoutImpl] - Initialising asynchronous payout...
+[2022-03-09 13:45:34,226] INFO  [GDSEventRetrievalWorker] [HidApiUSBHidTransceiver] - Event Received from 3053-259 with data: 0x0A 0x02 0x55 0x53 0x44 0x01 0x00 0x82 0x05 0x4E 0x4D 0x36 0x36 0x30 0x38 0x47 0x45 0x5F 0x32 0x38 0x36 0x32 0x32 0x32 0x35 0x30 0x34 0x5F 0x55 0x53 0x44 0x5F 0x35 0x32 0x30 0x30 0x38 0x30 0x34 0x30 0x37 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+[2022-03-09 13:45:40,145] INFO  [g2sRequestGamePlayChannelExecutor-1] [G2SEventHandler] - Sending Event Message: EventMessage [eventType=DEVICE_CONFIGURATION_CHANGED, eventProperties={DEVICETYPE=G2S_gamePlay, DEVICEID=8, TYPE=DEVICE_CONFIGURATION_CHANGED}]
+[2022-03-09 13:45:40,145] INFO  [g2sRequestGamePlayChannelExecutor-1] [LoggingOutputChannelInterceptor] - Sending message of type [class com.ingg.platform.g2s.core2adaptor.cabinet.dto.EventMessage] to engine. (EventMessage{uuid=4fa0aa03-6d7a-490e-8ab8-31db57115e11, eventMsg=EventMessage [eventType=DEVICE_CONFIGURATION_CHANGED, eventProperties={DEVICETYPE=G2S_gamePlay, DEVICEID=8, TYPE=DEVICE_CONFIGURATION_CHANGED}]})
+[2022-03-09 13:45:40,145] INFO  [g2sRequestGamePlayChannelExecutor-1] [DefaultGamePlayProcessor] - RESP_OUT: true
+[2022-03-09 13:45:40,145] INFO  [g2sRequestGamePlayChannelExecutor-1] [LoggingOutputChannelInterceptor] - Sending message of type [class com.ingg.platform.g2s.adaptor2core.gamePlay.dto.GameplayResponse] to engine. (GameplayResponse<Boolean>)
+[2022-03-09 13:45:40,179] INFO  [g2sRequestGamePlayChannelExecutor-1] [DefaultGamePlayProcessor] - REQ_IN: ValidateChangeRequest{deviceId=9, isSetState=false, enabled=true, denoms=[[25000]]}
+[2022-03-09 13:45:40,214] INFO  [g2sRequestGamePlayChannelExecutor-1] [G2sGameBehaviourDetermination] - No gamecycles awaiting recovery on this EGM/Live/20:LOCKED_OUT
+[2022-03-09 13:46:35,406] INFO  [DefaultIkernelLockServiceExecutor - 0] [AbstractIkernelLockService] - internalLock -> ## disableText:: Payout in progress
+[2022-03-09 13:46:35,443] INFO  [NetConn Monitor] [NetConnImpl] - Interrupted - hopefully on state change
+[2022-03-09 13:46:35,650] INFO  [pool-8-thread-1] [SingleMeterSlimZeroStakeTransactionManager] - Committing Reservation[900/[Code=7][Name=PAYOUT]/3c3d142d-3a4a-4a46-8c21-16f81365a00f] in Context[[Source=NON_TRANSACTIONAL_API][Name=CashOutVariables][Type=[Code=7][Name=PAYOUT]][Intent=FULL_CASHOUT][Mechanics=com.ingg.platform.gsa.credit.transfer.CashoutVariableFactory$4@12272c3]]...
